@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace PasswortCreator
+namespace PasswordCreator
 {
     static class Program
     {
@@ -14,7 +14,7 @@ namespace PasswortCreator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PasswordCreator());
+            Application.Run(new PasswordCreatorDialog());
         }
     }
 }

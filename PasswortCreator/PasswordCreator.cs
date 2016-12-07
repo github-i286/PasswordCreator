@@ -8,9 +8,9 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace PasswortCreator
+namespace PasswordCreator
 {
-    public partial class PasswordCreator : Form
+    public partial class PasswordCreatorDialog : Form
     {
         Random rnd;
         string UppercaseChar = "ABCDEFGHIJKMNOPQRSTUVWX";
@@ -19,7 +19,7 @@ namespace PasswortCreator
         string Numbers = "123456789";
         string Special = "!?=+*&$#";
 
-        public PasswordCreator()
+        public PasswordCreatorDialog()
         {
             InitializeComponent();
             rnd = new Random();

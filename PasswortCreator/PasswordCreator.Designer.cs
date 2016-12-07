@@ -1,6 +1,6 @@
-namespace PasswortCreator
+namespace PasswordCreator
 {
-    partial class PasswordCreator
+    partial class PasswordCreatorDialog
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@ namespace PasswortCreator
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PasswordCreator));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PasswordCreatorDialog));
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnCreate = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -79,9 +79,9 @@ namespace PasswortCreator
             // cbYZ
             // 
             this.cbYZ.AutoSize = true;
-            this.cbYZ.Checked = global::PasswortCreator.Properties.Settings.Default.InclEasy;
+            this.cbYZ.Checked = global::PasswordCreator.Properties.Settings.Default.InclEasy;
             this.cbYZ.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbYZ.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PasswortCreator.Properties.Settings.Default, "InclEasy", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cbYZ.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PasswordCreator.Properties.Settings.Default, "InclEasy", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cbYZ.Location = new System.Drawing.Point(13, 96);
             this.cbYZ.Name = "cbYZ";
             this.cbYZ.Size = new System.Drawing.Size(189, 17);
@@ -92,9 +92,9 @@ namespace PasswortCreator
             // cbNumbers
             // 
             this.cbNumbers.AutoSize = true;
-            this.cbNumbers.Checked = global::PasswortCreator.Properties.Settings.Default.InclDigits;
+            this.cbNumbers.Checked = global::PasswordCreator.Properties.Settings.Default.InclDigits;
             this.cbNumbers.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbNumbers.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PasswortCreator.Properties.Settings.Default, "InclDigits", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cbNumbers.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PasswordCreator.Properties.Settings.Default, "InclDigits", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cbNumbers.Location = new System.Drawing.Point(116, 73);
             this.cbNumbers.Name = "cbNumbers";
             this.cbNumbers.Size = new System.Drawing.Size(73, 17);
@@ -105,9 +105,9 @@ namespace PasswortCreator
             // cbInclLowercase
             // 
             this.cbInclLowercase.AutoSize = true;
-            this.cbInclLowercase.Checked = global::PasswortCreator.Properties.Settings.Default.InclLowercase;
+            this.cbInclLowercase.Checked = global::PasswordCreator.Properties.Settings.Default.InclLowercase;
             this.cbInclLowercase.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbInclLowercase.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PasswortCreator.Properties.Settings.Default, "InclLowercase", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cbInclLowercase.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PasswordCreator.Properties.Settings.Default, "InclLowercase", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cbInclLowercase.Location = new System.Drawing.Point(13, 73);
             this.cbInclLowercase.Name = "cbInclLowercase";
             this.cbInclLowercase.Size = new System.Drawing.Size(97, 17);
@@ -117,7 +117,7 @@ namespace PasswortCreator
             // 
             // numLength
             // 
-            this.numLength.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::PasswortCreator.Properties.Settings.Default, "NumberOfChars", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numLength.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::PasswordCreator.Properties.Settings.Default, "NumberOfChars", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.numLength.Location = new System.Drawing.Point(147, 16);
             this.numLength.Maximum = new decimal(new int[] {
             1024,
@@ -132,7 +132,7 @@ namespace PasswortCreator
             this.numLength.Name = "numLength";
             this.numLength.Size = new System.Drawing.Size(44, 20);
             this.numLength.TabIndex = 1;
-            this.numLength.Value = global::PasswortCreator.Properties.Settings.Default.NumberOfChars;
+            this.numLength.Value = global::PasswordCreator.Properties.Settings.Default.NumberOfChars;
             // 
             // txtSpecial
             // 
@@ -140,7 +140,7 @@ namespace PasswortCreator
             this.txtSpecial.Name = "txtSpecial";
             this.txtSpecial.Size = new System.Drawing.Size(155, 20);
             this.txtSpecial.TabIndex = 3;
-            this.txtSpecial.Text = global::PasswortCreator.Config.Default.Special;
+            this.txtSpecial.Text = global::PasswordCreator.Config.Default.Special;
             // 
             // PasswordCreator
             // 

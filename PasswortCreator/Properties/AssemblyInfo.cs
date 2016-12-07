@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PasswortCreator")]
+[assembly: AssemblyTitle("PasswordCreator")]
 [assembly: AssemblyDescription("This program creates strong passwords with characteristics entered by the user")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ihly Consulting GmbH")]
-[assembly: AssemblyProduct("PasswortCreator")]
+[assembly: AssemblyProduct("PasswordCreator")]
 [assembly: AssemblyCopyright("Copyright © Ihly Consulting, Bolligen SWitzerland, 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
