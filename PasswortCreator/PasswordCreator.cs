@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace PasswordCreator
 {
@@ -22,6 +23,9 @@ namespace PasswordCreator
         public PasswordCreatorDialog()
         {
             InitializeComponent();
+            Assembly assembly = Assembly.GetAssembly(typeof(PasswordCreatorDialog));
+            AssemblyName assName = assembly.GetName();
+            this.Text = assName.Name + " " + assName.Version.ToString() ;
             rnd = new Random();
         }
 

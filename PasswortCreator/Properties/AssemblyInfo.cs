@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PasswordCreator")]
+[assembly: AssemblyTitle("Password Creator")]
 [assembly: AssemblyDescription("This program creates strong passwords with characteristics entered by the user")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ihly Consulting GmbH")]
 [assembly: AssemblyProduct("PasswordCreator")]
-[assembly: AssemblyCopyright("Copyright © Ihly Consulting, Bolligen SWitzerland, 2013")]
+[assembly: AssemblyCopyright("Open Source - written by © Ihly Consulting, Bolligen SWitzerland, 2013-2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.1.0.0")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]
