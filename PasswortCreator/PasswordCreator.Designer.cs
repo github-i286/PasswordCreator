@@ -54,9 +54,9 @@ namespace PasswordCreator
             // 
             this.btnCreate.Location = new System.Drawing.Point(11, 127);
             this.btnCreate.Name = "btnCreate";
-            this.btnCreate.Size = new System.Drawing.Size(122, 23);
+            this.btnCreate.Size = new System.Drawing.Size(320, 23);
             this.btnCreate.TabIndex = 7;
-            this.btnCreate.Text = "Create && Copy";
+            this.btnCreate.Text = "Create && Copy to Clipboard";
             this.btnCreate.UseVisualStyleBackColor = true;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
